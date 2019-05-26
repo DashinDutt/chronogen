@@ -4,7 +4,7 @@ require_once('functions.php');
 require_once('connect_db.php');
 if(!sessionCheck('level','dean'))
   die();
-obclean();
+//obclean();
 rangeCheck('room_name',2,25);
 if(valueCheck('action','add'))
 {
