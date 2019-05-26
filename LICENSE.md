@@ -1,6 +1,6 @@
-### QuickSlots : A web-based timetable management system
+### Chronogen : A web-based timetable management system
 
-##### Copyright (C) 2015 Avin E.M
+##### Copyright (C) 2018 Avin E.M
 
 This program is free software: you can redistribute it and/or modify it under the **terms of the version 3 of GNU General Public License** as published by the Free Software Foundation.
 
