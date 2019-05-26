@@ -1,14 +1,10 @@
 <?php
-
-/**
- * Back end routines to add/delete rooms, invoked by dean.php
- * @author Avin E.M
- */
-
+//add or del rooms
 require_once('functions.php');
 require_once('connect_db.php');
 if(!sessionCheck('level','dean'))
   die();
+obclean();
 rangeCheck('room_name',2,25);
 if(valueCheck('action','add'))
 {
@@ -21,7 +17,7 @@ if(valueCheck('action','add'))
   catch(PDOException $e)
   {
     if($e->errorInfo[0]==23000)
-      postResponse("error","Room already exists");
+      postResponse("error","Room is added already");
     else
       postResponse("error",$e->errorInfo[2]);
   }
