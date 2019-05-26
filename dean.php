@@ -362,7 +362,7 @@ if($_POST)
       </div>
       <br>
       <div id="legend" style="width:232px;">
-        <div class="title">Legend</div>
+        <div class="title">Details on Timetable</div>
         <div class="table" style="margin:auto">
           <div class="row">
             <div class="cell blue">Active</div>
