@@ -2,7 +2,6 @@
 
 /**
  * Back end routines to generate/restore backups, invoked by dean.php
- * @author Avin E.M
  */
 
 require_once('functions.php');
