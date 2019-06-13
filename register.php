@@ -2,7 +2,6 @@
 
 /**
  * Back end routines for user management, invoked by manage.php and setup.php
- * @author Avin E.M
  */
 
 require_once ('functions.php');
