@@ -2,7 +2,6 @@
 
 /**
  * Provides interface and back end routines that handle user logins
- * @author Avin E.M
  */
 
 require_once ('connect_db.php');
@@ -60,7 +59,7 @@ if(sessionCheck('logged_in'))
     <div class="boxbg"></div>
     <div class="elements">
       <div class="avatar"><div class="icon key"></div></div>
-      <div class="title">Login</div>
+      <div class="title"><b>Login<b></div>
       <form id="loginform" method="post" action="login.php">
         <input type="text" name="uName" class="styled username" required placeholder="Username/Roll No." />
         <input type="password" name="pswd" class="styled pswd" required placeholder="Password" />
