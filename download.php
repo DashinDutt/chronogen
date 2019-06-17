@@ -2,6 +2,7 @@
 
 /**
  * Back end routines that call PhantomJS to generate printable timetable snapshot images
+ * not working currently
  */
 
 require_once('functions.php');
